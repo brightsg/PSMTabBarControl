@@ -352,6 +352,11 @@ static NSMutableDictionary *registeredStyleClasses;
 	[self setNeedsDisplay:YES];
 }
 
++ (NSInteger)tabLabelMarginX
+{
+    return 6;
+}
+
 #pragma mark -
 #pragma mark Style Class Registry
 
