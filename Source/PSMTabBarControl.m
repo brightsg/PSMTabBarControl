@@ -178,7 +178,7 @@ static NSMutableDictionary *registeredStyleClasses;
 - (BOOL)isWindowActive {
     NSWindow *window = [self window];
     BOOL windowActive = NO;
-    if ([window isKeyWindow])
+    if ([window isMainWindow])
         windowActive = YES;
     else if ([window isKindOfClass:[NSPanel class]] && [NSApp isActive])
         windowActive = YES;
