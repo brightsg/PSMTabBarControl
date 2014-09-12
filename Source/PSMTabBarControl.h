@@ -17,8 +17,7 @@
 
 #define kPSMTabBarControlHeight             22
 // internal cell border
-#warning MARGIN_X changed from 6. Proper implementation required.
-#define MARGIN_X							16 // interior cell width calculated at - (CGFloat)_minimumWidthOfCell - (CGFloat)_desiredWidthOfCell
+#define MARGIN_X							6 // interior cell width calculated at - (CGFloat)_minimumWidthOfCell - (CGFloat)_desiredWidthOfCell
 #define MARGIN_Y							3
 // padding between objects
 #define kPSMTabBarCellPadding				4
