@@ -264,8 +264,12 @@ static PSMTabDragAssistant *sharedDragAssistant = nil;
 			}
 
 			imageSize = [image size];
+            
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
 			[image setScalesWhenResized:YES];
-
+#pragma clang diagnostic pop
+            
 			if(imageSize.width > imageSize.height) {
 				[image setSize:NSMakeSize(125, 125 * (imageSize.height / imageSize.width))];
 			} else {
