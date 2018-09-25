@@ -734,7 +734,6 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_ENABLE_OBJC_GC = unsupported;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.positivespinmedia.PSMTabBarControlFramework;
 			};
@@ -746,7 +745,6 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_ENABLE_OBJC_GC = unsupported;
 				PRODUCT_BUNDLE_IDENTIFIER = com.positivespinmedia.PSMTabBarControlFramework;
 			};
 			name = Release;
