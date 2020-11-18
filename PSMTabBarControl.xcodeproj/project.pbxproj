@@ -255,6 +255,7 @@
 		98F1EBAB15F2EDE900A9C5EB /* TabClose_Front_Pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TabClose_Front_Pressed@2x.png"; path = "Resources/TabClose_Front_Pressed@2x.png"; sourceTree = "<group>"; };
 		98F1EBAC15F2EDE900A9C5EB /* TabClose_Front_Rollover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TabClose_Front_Rollover@2x.png"; path = "Resources/TabClose_Front_Rollover@2x.png"; sourceTree = "<group>"; };
 		98F1EBAD15F2EDE900A9C5EB /* TabClose_Front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TabClose_Front@2x.png"; path = "Resources/TabClose_Front@2x.png"; sourceTree = "<group>"; };
+		ABFDF33725656F2D00FCFE3F /* macOS-native-arch.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS-native-arch.xcconfig"; sourceTree = "<group>"; };
 		C0D069550A49DF9100C95564 /* InterfaceBuilderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilderKit.framework; path = /Developer/Library/Frameworks/InterfaceBuilderKit.framework; sourceTree = "<absolute>"; };
 		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -393,6 +394,7 @@
 		5A5652F815D1E72F00F9EFD5 /* xcconfigs */ = {
 			isa = PBXGroup;
 			children = (
+				ABFDF33725656F2D00FCFE3F /* macOS-native-arch.xcconfig */,
 				5A5652F915D1E72F00F9EFD5 /* Base.xcconfig */,
 				5A5652FA15D1E72F00F9EFD5 /* Debug.xcconfig */,
 				5A5652FB15D1E72F00F9EFD5 /* PSMTabBarControlDemo-Base.xcconfig */,
@@ -741,7 +743,7 @@
 		};
 		C056398108A954F8003078D8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A56530015D1E72F00F9EFD5 /* PSMTabBarControlFramework-Release.xcconfig */;
+			baseConfigurationReference = ABFDF33725656F2D00FCFE3F /* macOS-native-arch.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;

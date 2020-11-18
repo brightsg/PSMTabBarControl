@@ -1,0 +1,11 @@
+//
+//  macOS-native-arch.xcconfig
+//  PSMTabBarControl
+//
+//  Created by Jonathan Mitchell on 18/11/2020.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "PSMTabBarControlFramework-Release.xcconfig"
+ARCHS=$(NATIVE_ARCH_ACTUAL)
