@@ -1220,7 +1220,7 @@ static NSMutableDictionary *registeredStyleClasses;
 }
 
 - (void)drawRect:(NSRect)rect {
-
+    self.clipsToBounds = YES;
     if ([style respondsToSelector:@selector(drawTabBarControl:inRect:)]) {
         [style drawTabBarControl:self inRect:rect];
     } else {

@@ -25,6 +25,7 @@
 }
 
 - (void)drawRect:(NSRect)rect {
+    self.clipsToBounds = YES;
 	//1.0 fade means show the primary image
 	//0.0 fade means show the secondary image
 	CGFloat primaryAlpha = _alpha + 0.001f, alternateAlpha = 1.001f - _alpha;

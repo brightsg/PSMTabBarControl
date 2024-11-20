@@ -34,6 +34,7 @@
 }
 
 - (void)drawRect:(NSRect)rect {
+    self.clipsToBounds = YES;
 	if(_PSMTabBarOverflowPopUpImage == nil) {
 		[super drawRect:rect];
 		return;
